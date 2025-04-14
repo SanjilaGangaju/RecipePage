@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(330, 100%, 98%);
+}
+.recipe-wrapper{
+    width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    padding: 29px;
+    margin: 100px auto;
+}
+.recipe-img{
+   width: 100%;
+   border-radius: 16px;
+  
+}
+.recipe-title{
+    font-family: Outfit;
+    font-weight: 100;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
